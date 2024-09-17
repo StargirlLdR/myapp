@@ -1,0 +1,232 @@
+body{
+    background: rgba(244, 249, 226, 1);
+    width: 1440px;
+    margin-left: 15px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 1440px;
+    margin: 0;
+
+}
+
+.logo img {
+    width: 118px;
+    height: 119px;
+    top: 17px;
+    margin-left: 167px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid #ffb300;
+}
+
+.contact-button {
+    background-color: #ffb300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 157px;
+}
+
+.contact-button:hover {
+    background-color: #ffa000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 1400px;
+    justify-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 187px;
+    font-family: Arial, sans-serif;
+    color: rgba(34, 53, 111, 1);
+    font-style: italic;
+}
+
+.text h1 {
+    color: #2f4f4f; 
+    font-size: 48px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgba(34, 53, 111, 1);
+    font-style: italic;
+}
+
+.text p {
+    color: #4f4f4f; 
+    font-size: 24px;
+    width: 602px;
+    height: 277px;
+    font-family: Arial, sans-serif;
+    color: rgba(34, 53, 111, 1);
+    font-style: italic;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 543px;
+    height: 533px;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1440px;
+    height: 607px;
+    background-color: rgba(98, 208, 223, 1);
+    align-items: center;
+    justify-items: end;
+    margin: 0;
+}
+
+.text1 {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    font-style: italic;
+}
+
+.text1 h2 {
+    color: white;
+    font-size: 36px;
+    margin-left: 162px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.text1 p {
+    color: white;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-left: 172px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.image1 img {
+    width: 520px;
+    height: 607px;
+    
+}
+.cont{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    font-size: 24px;
+    margin: 0;
+    background-color: white;
+    height: 633px;
+    color: rgba(34, 53, 111, 1);
+}
+.text-block{
+    width: 739px;
+    height: 243px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    font-style: italic;
+}
+.ServiceItem{
+    width: 480px;
+    height: 480px;
+    background-color: #82a7cb;
+}
+.line-ServiceItem{
+    width: 340px;
+    height: 96px;
+    border-bottom: 2px solid white;
+}
+.ss{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.cont-service {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cont-service > * {
+    flex: 1;
+    text-align: center;
+  }
+  
+
+.container6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 800px;
+    width: 1440px;
+    background-color: rgb(255, 255, 255);
+}
+.image6 {
+    flex: 1;
+}
+.image6 img {
+    width: 637px;
+    height: 796px;
+}
+.content {
+    flex: 1;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    color: rgba(34, 53, 111, 1);
+    margin-top: 70px;
+}
+.content div {
+    font-size: 36px;
+    margin-bottom: 20px;
+    height: 51px;
+    width: 361px;
+    font-family: Arial, sans-serif;
+    color: rgba(34, 53, 111, 1);
+    font-style: italic;
+}
+.content p {
+    font-size: 36px;
+    margin-bottom: 20px;
+    height: 215px;
+    width: 676px;
+    font-family: Arial, sans-serif;
+    color: rgba(34, 53, 111, 1);
+    font-style: italic;
+}
